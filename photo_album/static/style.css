@@ -1,0 +1,243 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5f8; 
+  color: #4b004b;
+}
+
+header {
+  background-color: #ff80ab; 
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  margin: 0.5rem;
+  color: #9b4bce; 
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.photo {
+  background-color: #fff;
+  border: 1px solid #f8c4d4; 
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 8px 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-button {
+  background-color: #ff8a80; 
+}
+
+#cancel-button {
+  background-color: #ff4081; 
+}
+
+#edit-button {
+  background-color: #ffb74d; 
+}
+
+#delete-button {
+  background-color: #e57373; 
+}
+
+#add-button {
+  background-color: #ff80ab; 
+  margin: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #f8c4d4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  height: 300px;
+  transition: transform 0.2s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+}
+
+.image-subcontainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.image-subcontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  color: #9b4bce;
+}
+
+#main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ffcccb; 
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffe0eb; 
+  height: 350px;
+}
+
+.edit-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.edit-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#form-container {
+  border: 1px solid #ff80ab;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff0f6; 
+}
+
+.h5-text {
+  font-size: 17px;
+  color: #4b004b; 
+}
+
+.description-text {
+  font-size: 13px;
+  color: #7b3a8f; 
+  font-family: "Spicy Rice", serif;
+  font-style: normal;
+  
+}
+
+.container-redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  padding: 5px;
+  color: #ff80ab;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff4081;
+}
+
+.h3-mis-redes {
+  font-size: 20px;
+  color: #4b004b;
+}
+
+.subcontainer-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #f8c4d4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.social-link i {
+  color: #e4405f; 
+}
+
+.social-link i.fa-instagram {
+  color: #e4405f; 
+}
+
+.social-link i.fa-instagram {
+  color: #e4405f; 
+}
+
+#add-button {
+  border: 2px solid #e7667e; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-family: "Spicy Rice", serif;
+}
+
+#add-button:hover {
+  border-color: #ffffff; 
+}
+
+#edit-button {
+  background-color: #ff69b4; 
+  color: white; 
+  border-color: #ff69b4; 
+}
+
+#edit-button:hover {
+  background-color: #ff8a80; 
+}
